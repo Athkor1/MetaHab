@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Ubuntu-bold";
+  src: url("../Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("../Ubuntu-Regular.ttf") format("truetype");
+}
+
+
+
+body {
+  margin: 0;
+}
+html,
+body {
+	height: 100%;
+	width:100%;
+	display: flex;	
+	
+}
+canvas {
+  display: block;
+}
+
+.Logo {
+	position: absolute;
+	top: 4%;
+	left: 2%;	
+}
+
+.Logo img {
+	width: 5vh;
+	height: 5vh;
+
+	border-radius: 50%;
+	
+}
+
+.Page-Accueil::-webkit-scrollbar {
+	display:none;
+
+}
+.Page-Accueil {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+ 
+
+  height: 100%;
+  overflow: scroll;
+	border: 1px solid #333333;
+  
+}
+
+.Integration-3D {
+  width: 60%;
+  background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Titre {
+	
+
+	font-family: "Ubuntu-bold";
+	text-align: center;
+	font-size: 70px;
+	width: 70%;
+}
+
+.Sous-Titre {
+	
+	font-family: "Ubuntu-bold";
+	text-align: center;
+	font-size: 30px;
+}
+
+.Text {
+	
+	width: 70%;
+	font-family: "Ubuntu-regular";
+	text-align: center;
+	font-size: 30px;
+}
+
+
+#myButton {
+	
+	
+	font-family: "Ubuntu-bold";
+	font-size: 30px;
+  
+	border-radius: 50px;
+  
+
+	box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+  
+	padding: 10px 20px;
+
+	text-decoration: none;
+	color: black;
+}
